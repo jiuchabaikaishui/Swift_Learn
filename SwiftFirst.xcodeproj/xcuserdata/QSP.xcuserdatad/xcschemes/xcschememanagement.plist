@@ -4,10 +4,25 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>SwiftCalculator.xcscheme</key>
+		<key>DataType.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>1</integer>
+		</dict>
+		<key>FlowControl.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>Function.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+		<key>SwiftCalculator.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
@@ -43,6 +58,56 @@
 			<true/>
 		</dict>
 		<key>6EE4C7BF1E7BCF260079F224</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>6EE4C7D71E7F5FC20079F224</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>6EE4C7EF1E7F5FC30079F224</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>6EE4C7FA1E7F5FC30079F224</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>6EE4C80E1E7F5FFE0079F224</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>6EE4C8191E7F60730079F224</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>6EE4C8241E7F7F960079F224</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>6EE4C8371E7F7F960079F224</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>6EE4C8421E7F7F960079F224</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>6EE4C8561E7F82320079F224</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>6EE4C8611E7FA4D70079F224</key>
 		<dict>
 			<key>primary</key>
 			<true/>

@@ -4,20 +4,45 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>Class.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
 		<key>DataType.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>1</integer>
+		</dict>
+		<key>FirstMacOSApplication.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>6</integer>
 		</dict>
 		<key>FlowControl.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>2</integer>
 		</dict>
+		<key>FollowMe.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>7</integer>
+		</dict>
 		<key>Function.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>3</integer>
+		</dict>
+		<key>OtherTheme.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>8</integer>
+		</dict>
+		<key>ProtocolAndExtension.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>5</integer>
 		</dict>
 		<key>SwiftCalculator.xcscheme</key>
 		<dict>
@@ -27,6 +52,51 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>6E7AAACD1E8E343E00EE23AA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>6E7AAB1C1E8F953700EE23AA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>6E7AAB2C1E8F953800EE23AA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>6E7AAB371E8F953800EE23AA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>6E7AAB4F1E92032100EE23AA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>6E7AAB621E92032100EE23AA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>6E7AAB6D1E92032100EE23AA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>6E7AAB871E94B88F00EE23AA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>6E7AAB921E94E0FE00EE23AA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>6EE4C75C1E7BC7A50079F224</key>
 		<dict>
 			<key>primary</key>

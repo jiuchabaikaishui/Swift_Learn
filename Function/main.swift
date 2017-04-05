@@ -107,5 +107,20 @@ var num3 = 4
 print(ascendingSort(num1: &num1, num2: &num2, num3: &num3))
 print([num1, num2, num3])
 
+//闭包
+var simpleClosure = {(amount: Double, interestRate: inout Double, years: Int) -> Double in
+    interestRate = interestRate/100
+    var interest = Double(years) * interestRate * amount
+    
+    return interest + amount
+}
+//闭包做函数的参数
+func loanCalculator(amount: Double, interestRate: inout Double, years: Int, calculator: (Double, inout Double, Int) -> Double) -> Double
+{
+    return calculator(amount, &interestRate, years)
+}
+var rate : Double = 3.875
+print(loanCalculator(amount: 10000, interestRate: &rate, years: 5, calculator: simpleClosure))
+
 
 		

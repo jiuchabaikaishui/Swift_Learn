@@ -122,5 +122,4 @@ func loanCalculator(amount: Double, interestRate: inout Double, years: Int, calc
 var rate : Double = 3.875
 print(loanCalculator(amount: 10000, interestRate: &rate, years: 5, calculator: simpleClosure))
 
-
 		

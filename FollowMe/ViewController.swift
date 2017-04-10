@@ -201,7 +201,5 @@ class ViewController: UIViewController, UIAlertViewDelegate {
             }
         }
     }
-
-
 }
 

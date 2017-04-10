@@ -46,7 +46,6 @@ class ViewController: NSViewController {
                 result = insterest.compoundCalculate(amount: amountTextField.doubleValue, years: Int(timeTextField.intValue), rate: rateTextField.doubleValue)
             }
             
-            
             self.resultLabel.stringValue = result.currency
         }
     }

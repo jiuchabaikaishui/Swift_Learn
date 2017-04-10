@@ -36,7 +36,6 @@ print(num)
 let student = ("綦帅鹏", 27, "打球")
 print("学生：\(student.0), \(student.1)岁，喜欢\(student.2)！")
 
-
 //数组，数组中数据的类型必须相同
 var studentsName = ["张三", "李四", "王五"]
 //添加数据

@@ -22,7 +22,6 @@ extension Double {
         
         return result!
     }
-    
 }
 
 /// 利息计算

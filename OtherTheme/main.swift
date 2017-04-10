@@ -94,13 +94,16 @@ func valueEqual<T: Equatable>(value1: T, value2: T) -> Bool {
 }
 
 //运算符重载：只需定义一个运算符命名的函数
+/// 二维矩阵结构体
 struct TwoDimensionalMatrix {
     var a11: Double, a12: Double
     var a21: Double, a22: Double
 }
+/// 重载+运算符，实现二维矩阵的相加
 func +(matrix: TwoDimensionalMatrix, otherMatrix: TwoDimensionalMatrix) -> TwoDimensionalMatrix {
     return TwoDimensionalMatrix.init(a11: matrix.a11 + otherMatrix.a11, a12: matrix.a12 + otherMatrix.a12, a21: matrix.a21 + otherMatrix.a21, a22: matrix.a22 + otherMatrix.a22)
 }
+/// 重载*运算符，实现二维矩阵的相乘
 func *(matrix: TwoDimensionalMatrix, otherMatrix: TwoDimensionalMatrix) -> TwoDimensionalMatrix {
     return TwoDimensionalMatrix.init(a11: matrix.a11 * otherMatrix.a11, a12: matrix.a12 * otherMatrix.a12, a21: matrix.a21 * otherMatrix.a21, a22: matrix.a22 * otherMatrix.a22)
 }
